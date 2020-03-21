@@ -5,7 +5,8 @@ const ProjectInfo = ({imageUrl, title, link, description, technology, codeLink})
     <div className="project-info">
 	    <div className="project-info__info">
            <div className="project-info__title"> { title} </div>
-           <div className="project-info__desc"> { description} </div>
+           {description.map((bulletPoint, i) => (
+           <div className="project-info__desc" key = { i }> { bulletPoint} </div>))}
            {
            	 technology.length > 0 &&
            	 <div>
