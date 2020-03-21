@@ -1,125 +1,148 @@
 const portfolioData = { 
 	"imageUrl": 'http://localhost:3000/',
-	"logo": "images/app-logo.svg",
-	"logoWhite": "images/app-logo-white.svg",
-	"name": 'James Russel C. Bautista',
-	"role": 'Front-end Developer',
-	"intro": "Let's keep building amazing stuff.",
+	"logo": "images/app-logo.ico",
+	"logoWhite": "images/app-logo-white.ico",
+	"name": 'Ignacio Valdelvira',
+	"role": 'Data Science and Full-stack enthusiast',
+	"intro": "This is my personal site",
 	"projects": [
 		{
 			"id": 0,
-			"title": "Movie Library using React/Redux",
-			"imageUrl": "images/portfolio/movie-app-thumbnail.png",
-			"link": "https://movie-db-app.netlify.com/discover/popular/",
-			"codeLink": "https://github.com/jrussumbrella/react-movie-library",
-			"description": "This projects fetches data from themovied.org api. It basically display all popular, top rated, upcoming movies from the api. View and search info to certain movie.",
+			"title": "Songbinator",
+			"imageUrl": "images/portfolio/Songbinator.png",
+			"link": "http://songbinator.eu-gb.mybluemix.net/",
+			"codeLink": "https://github.com/ignaciovi/Songbinator",
+			"description": ["Problem finding a playlist that satisfies the musical taste of you and your group of friends? Give us some artists and we will create you a personalised playlist that everyone will like!"],
 			"technology": ["HTML/CSS", "SASS(SCSS)/ CSS Modules/ Styled Component", "React", "Redux"],
 		},	
 		{
 			"id": 1,
-			"title": "Hataw Ecommerce Website",
-			"imageUrl": "images/portfolio/hataw-thumbnail.png",
-			"link": "https://hataw.ph/shop/",
+			"title": "Modelling the behavior of Unmanned Underwater Vehicles based on previous survey mission data",
+			"imageUrl": "images/portfolio/UUVPrediction.png",
+			"link": "",
 			"codeLink": "",
-			"description": "Hataw is an Ecommerce website that provides low cost and high quality products. Im the one who do the front end stuff in this project.",
-			"technology": ["HTML/CSS", "SASS(SCSS)", "Javascript", "Zepto Js / Jquery"],
+			"description": ["Master’s Thesis: Involved in all the stages of a Data Science project (data gathering, feature engineering, building models, creating visualizations, making sure the solutions are relevant to the problem) both on Regression and Classification problems (Python)"
+				, "A real-life complex problem with multiple influencing factors was reduced to a manipulable simplification, obtaining accurate predictions of the behavior of an unmanned underwater vehicle in untrained environments"
+				, "Gained experience in documentation, time management, ability to work independently and design of machine-learning models"],
+			"technology": ["Python", "Machine Learning"],
 		},
 		{
 			"id": 2,
-			"title": "Hataw Web",
-			"imageUrl": "images/portfolio/hataw-web.png",
-			"link": "https://hataw.netlify.com/",
+			"title": "Bitcoin price prediction using Time Series Forecasting and Sentiment Analysis",
+			"imageUrl": "images/portfolio/BitcoinPrediction.png",
+			"link": "",
 			"codeLink": "",
-			"description": "Hataw Web is a projects that show all quality products. It is just for showcasing all the low cost and high quality products",
-			"technology": ["HTML/CSS", "SASS(SCSS)", "React"],
+			"description": ["This project overviews the particular challenges present in" 
+				+ "predicting Bitcoin price levels from time series data and provides a comparison"
+				+ "of traditional time series forecasting algorithms and Linear models"
+				+ "/ Deep Learning models for Bitcoin price prediction." 
+				, "Analysing the linkage between news and user opinion postings on public news forums"
+				+ "(Twitter, Reddit etc.) and Bitcoin price has also been done."
+				, "Benchmark of the models has been done based on price predictability"
+				+ "by calculating the regression error scores and prediction of the direction"
+				+ "of fluctuation by computing accuracy, precision etc"],
+			"technology": ["Python", "NLTK", "ARIMA", "Prophet"],
 		},
 		{
 			"id": 3,
-			"title": "Hataw Ecommerce (Wap)",
-			"imageUrl": "images/portfolio/hataw-wap.png",
-			"link": "https://hataw.ph/wap/",
-			"codeLink": "",
-			"description": "Hataw Ecommerce (Wap) is a mobile web version.",
-			"technology": ["HTML",  "SASS/SCSS", "Zepto Js"]				
+			"title": "Song Genre Prediction",
+			"imageUrl": "images/portfolio/SongGenrePrediction.png",
+			"link": "",
+			"codeLink": "https://github.com/ignaciovi/Song-Genre-Prediction",
+			"description": ["In this project we work on predicting the genre of a song based on those audio analysis features."
+				+ " The main purpose ot this work is to analyse if the features extracted by Spotify (by unknown audio analysis criteria)"
+				+ " allow us to predict music genres only taking that information into consideration."],
+			"technology": ["Python", "Machine Learning"]				
 		},
 		{
 			"id": 4,			
-			"title": "Paper Todo App using React",
-			"imageUrl": "images/portfolio/react-todo-thumbnail.png",
+			"title": "Tweet Geolocation Prediction",
+			"imageUrl": "images/portfolio/TweetLocation.png",
 			"link": "",
-			"codeLink": "https://github.com/jrussumbrella/react-paper-todo",
-			"description": "Simple to do app that uses local storage to save to do list.",
-			"technology": ["HTML", "Paper CSS", "React"]			
-		},
-		{
-			"id": 5,
-			"title": "MHI 2K18 Web based Tabulation System Demo",
-			"imageUrl": "images/portfolio/mhi-thumbnail.jpg",
-			"link": "",
-			"codeLink": "https://github.com/jrussumbrella/mhi-web-based-tabulation",
-			"description": "It is a network based system that I developed to easily tabulate the scored of certain candidates per judge.",
-			"technology": ["HTML/CSS", "Bootstrap", "Javascript/Jquery", "Mysql", "PHP" ]				
-		},
-		{
-			"id": 6,			
-			"title": "Online Registration using Laravel",
-			"imageUrl": "images/portfolio/attendance-thumbnail.png",
-			"link": "http://doitpsualaminos.herokuapp.com/",
-			"codeLink": "",
-			"description": "Online Registration for certain activities in our school.",
-			"technology": ["HTML/CSS", "Bootstrap", "Javascript/Jquery", "Laravel"]				
-		},
-		{
-			"id": 7,
-			"title": "Java Made Easy Android App",
-			"imageUrl": "images/portfolio/java-made-app.jpg",
-			"link": "",
-			"codeLink": "https://github.com/jrussumbrella/java-made-easy",
-			"description": "This projects was my thesis that aimed to help those students especially IT students or those people who wants to learn java programming language.",
-			"technology": ["XML","Java"]				
-		},								
+			"codeLink": "https://github.com/ignaciovi/tweet-geolocation-spain",
+			"description": ["We propose a framework for estimating Twitter user's location based solely in the"
+				+ "text of the tweets. We will replicate an existing paper: You Are Where You Tweet:" 
+				+ "A Content-Based Approach to Geo-locating Twitter Users, a research project which focuses"
+				+ " the prediction on US states area. In our project we will aim to predict the Spanish Autonomous"
+				+ " Community (AC: first-level political and administrative division in which Spain is divided) "
+				+ "from which the tweet belongs."],
+			"technology": ["Python", "Machine Learning", "NLP"]			
+		}					
 		],
 	"skills": [
 		{
-			"name": "HTML/CSS",
+			"name": "Python",
 			"percentage": 80
 		},
 		{
-			"name": "SASS/ SCSS",
+			"name": "SQL",
+			"percentage": 70
+		},
+		{
+			"name": "React/Redux",
 			"percentage": 70
 		},	
 		{
 			"name": "Javascript",
-			"percentage": 80
-		},							
-		{
-			"name": "Jquery",
-			"percentage": 80
-		},
-
-		{
-			"name": "REACT",
-			"percentage": 50
-		},
-		{
-			"name": "PHP (LARAVEL)",
-			"percentage": 50
-		},						
+			"percentage": 70
+		},													
 	],
 	"workExp": [
 		{
 			"title": "Front-end Developer",
-			"date" : 'June 2017- June 2019',
-			"description": "Converting mockup designs into web pages, making sure it's mobile responsive and cross browser compatible. Maintaing and improving website.",
-			"company": 'E-Creations Inc.'
+			"date" : 'January 2019- Currently',
+			"description": ["Lead developer in a sales website using React.js and Redux which I learned on-site and was able to develop complex functionalities in a short period of time. Worked using Agile (Scrum) methodology to deliver new features" 
+				, "Improved sales websites based on Java and Javascript technologies"
+				, "Learned the importance of understanding the business in order to deliver well oriented and defined functionalities"],
+			"company": 'ScottishPower'
+			
 		},
 		{
-			"title": "Junior Software Engineer (Intern)",
-			"date" : 'January 2017 - May 2017',
-			"company": 'Advanced Techinnovations Systems',
-			"description": " Works as junior software engineer and help senior developer in developing the Hanap Trabaho web application."
+			"title": "Data Scientist Intern",
+			"date" : 'June 2018 - December 2018',
+			"company": 'SeeByte',
+			"description": ["Worked on a team to provide insight in the development of data analysis tasks (experience with Elasticsearch and Git)"
+				, "Used critical thinking to help define clear goals when the path to follow was fuzzy/not clear at certain stages of the project"
+				, "Actively collaborated in weekly meetings were objectives and project follow-up were discussed to fulfil client’s needs"]
+		},
+		{
+			"title": "Summer job",
+			"date" : 'July 2017 - August 2017',
+			"company": 'Buceo-Malta Scuba Diving Center',
+			"description": ["Developed myself in the commercial field and improved interpersonal skills by dealing with clients and attracting new ones to the business"
+				, "Improved my ability to be proactive, controlling a situation rather than just responding to it after it has happened"]
+		},
+		{
+			"title": "Software Engineer Intern",
+			"date" : 'January 2017 - April 2017',
+			"company": 'Air Drone Logistics',
+			"description": ["Internship in which I developed an algorithm able to recognize plates of shipping containers as part of my final degree project with MATLAB software. Worked independently and actively sought for input from experts in the field"
+			, "Developed Computer Vision and Image Analysis and acquired understanding of OCR techniques"]
 		},				
-	]	
+	],
+	"education": [
+		{
+			"title": "MSc Data Science",
+			"date" : '2017- 2018',
+			"description": ["Awarded with The Data Lab Scholarship"
+				, "Core courses: Machine Learning, Statistical Inference, Regression Models, Text as Data (NLP), Big Data (Hadoop, Spark)"
+				, "Team project: Bitcoin price prediction using Time Series Forecasting (ARIMA, Prophet, RNN) and Sentiment Analysis (NLTK)"
+				, "Thesis: Modelling the behavior of Unmanned Underwater Vehicles based on previous survey mission data (Grade 95/100)"],
+			"company": 'University of Glasgow'
+			
+		},
+		{
+			"title": "BSc Electromechanical Engineering",
+			"date" : '2012 - 2017',
+			"company": 'ICAI Universidad Pontificia de Comillas',
+			"description": ["Strong background in Algebra, Calculus and Statistics"
+				, "First class grade on Final Degree Thesis: Reading with drones of shipping container marking (OCR)"
+				, "Diploma in Professional Skills"
+				, "Persuasive Communication (1st), Written Communication (1st), Teamwork (2:1) and Personal Skills (2:1)"
+				, "Joined Public Speaking workshop for 1 year"
+				, "On own initiative, built a Quadcopter from scratch with college friends"]
+		},			
+	]
  
 }
 
