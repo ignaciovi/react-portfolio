@@ -15,7 +15,8 @@ const Timeline  = (props) => {
         <div className="stepper__info">
           <div className="stepper__body">
             <h3 className="stepper__title"> { exp.company }</h3>
-            <div className="stepper__sub"> { exp. description } </div>
+            {exp.description.map((bulletPoint,j) => (
+            <div className="stepper__sub" key={ j }> { bulletPoint } </div>))}
           </div>
         </div>              
       </div>
@@ -23,13 +24,8 @@ const Timeline  = (props) => {
   ))
 	return(
     <section className="site-section  site-section--with-background" id="work">
-      <div className="container">
-          <div className="site-section__icon stroke-white">
-            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="7" viewBox="0 0 73.94 14.19">
-              <polyline points="2.83 2.83 11.36 11.36 19.9 2.83 28.43 11.36 36.97 2.83 45.5 11.36 54.04 2.83 62.58 11.36 71.11 2.83" style={{ strokeDashoffset: "2e-05", strokeDasharray: "none" }}></polyline>
-            </svg>
-          </div>        
-        <h1 className="site-heading text-white"> Works  </h1>
+      <div className="container">       
+        <h1 className="site-heading text-white"> Professional Experience  </h1>
         <div className="stepper">
            { expList }                             
         </div>
