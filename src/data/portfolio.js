@@ -1,7 +1,7 @@
 const portfolioData = { 
 	"imageUrl": 'http://localhost:3000/',
-	"logo": "images/app-logo.ico",
-	"logoWhite": "images/app-logo-white.ico",
+	"logo": "images/app-logo.png",
+	"logoWhite": "images/app-logo-white.png",
 	"name": 'Ignacio Valdelvira',
 	"role": 'Data Science and Full-stack enthusiast',
 	"intro": "This is my personal site",
