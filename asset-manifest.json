@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e61c69a9.chunk.css",
-    "main.js": "/static/js/main.eccd866d.chunk.js",
-    "main.js.map": "/static/js/main.eccd866d.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.bd39f990.chunk.css": "/static/css/2.bd39f990.chunk.css",
-    "static/js/2.346d8a9e.chunk.js": "/static/js/2.346d8a9e.chunk.js",
-    "static/js/2.346d8a9e.chunk.js.map": "/static/js/2.346d8a9e.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.52a7bc45b22bbf992cfc9ad8c4a64a54.js": "/precache-manifest.52a7bc45b22bbf992cfc9ad8c4a64a54.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.bd39f990.chunk.css.map": "/static/css/2.bd39f990.chunk.css.map",
-    "static/css/main.e61c69a9.chunk.css.map": "/static/css/main.e61c69a9.chunk.css.map",
-    "static/media/intro-logo.png": "/static/media/intro-logo.b904dcdc.png"
+    "main.css": "/react-portofolio/static/css/main.7c883429.chunk.css",
+    "main.js": "/react-portofolio/static/js/main.67bef92f.chunk.js",
+    "main.js.map": "/react-portofolio/static/js/main.67bef92f.chunk.js.map",
+    "runtime~main.js": "/react-portofolio/static/js/runtime~main.672e7dd1.js",
+    "runtime~main.js.map": "/react-portofolio/static/js/runtime~main.672e7dd1.js.map",
+    "static/css/2.bd39f990.chunk.css": "/react-portofolio/static/css/2.bd39f990.chunk.css",
+    "static/js/2.346d8a9e.chunk.js": "/react-portofolio/static/js/2.346d8a9e.chunk.js",
+    "static/js/2.346d8a9e.chunk.js.map": "/react-portofolio/static/js/2.346d8a9e.chunk.js.map",
+    "index.html": "/react-portofolio/index.html",
+    "precache-manifest.4d0730559f2bb0ef0ff25cfe702a6e3a.js": "/react-portofolio/precache-manifest.4d0730559f2bb0ef0ff25cfe702a6e3a.js",
+    "service-worker.js": "/react-portofolio/service-worker.js",
+    "static/css/2.bd39f990.chunk.css.map": "/react-portofolio/static/css/2.bd39f990.chunk.css.map",
+    "static/css/main.7c883429.chunk.css.map": "/react-portofolio/static/css/main.7c883429.chunk.css.map",
+    "static/media/intro-logo.png": "/react-portofolio/static/media/intro-logo.b904dcdc.png"
   }
 }
