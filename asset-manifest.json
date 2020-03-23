@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-portofolio/static/css/main.7c883429.chunk.css",
-    "main.js": "/react-portofolio/static/js/main.67bef92f.chunk.js",
-    "main.js.map": "/react-portofolio/static/js/main.67bef92f.chunk.js.map",
-    "runtime~main.js": "/react-portofolio/static/js/runtime~main.672e7dd1.js",
-    "runtime~main.js.map": "/react-portofolio/static/js/runtime~main.672e7dd1.js.map",
-    "static/css/2.bd39f990.chunk.css": "/react-portofolio/static/css/2.bd39f990.chunk.css",
-    "static/js/2.346d8a9e.chunk.js": "/react-portofolio/static/js/2.346d8a9e.chunk.js",
-    "static/js/2.346d8a9e.chunk.js.map": "/react-portofolio/static/js/2.346d8a9e.chunk.js.map",
-    "index.html": "/react-portofolio/index.html",
-    "precache-manifest.4d0730559f2bb0ef0ff25cfe702a6e3a.js": "/react-portofolio/precache-manifest.4d0730559f2bb0ef0ff25cfe702a6e3a.js",
-    "service-worker.js": "/react-portofolio/service-worker.js",
-    "static/css/2.bd39f990.chunk.css.map": "/react-portofolio/static/css/2.bd39f990.chunk.css.map",
-    "static/css/main.7c883429.chunk.css.map": "/react-portofolio/static/css/main.7c883429.chunk.css.map",
-    "static/media/intro-logo.png": "/react-portofolio/static/media/intro-logo.b904dcdc.png"
+    "main.css": "/react-portofolio/build/static/css/main.7c883429.chunk.css",
+    "main.js": "/react-portofolio/build/static/js/main.e2925f74.chunk.js",
+    "main.js.map": "/react-portofolio/build/static/js/main.e2925f74.chunk.js.map",
+    "runtime~main.js": "/react-portofolio/build/static/js/runtime~main.6124a690.js",
+    "runtime~main.js.map": "/react-portofolio/build/static/js/runtime~main.6124a690.js.map",
+    "static/css/2.bd39f990.chunk.css": "/react-portofolio/build/static/css/2.bd39f990.chunk.css",
+    "static/js/2.346d8a9e.chunk.js": "/react-portofolio/build/static/js/2.346d8a9e.chunk.js",
+    "static/js/2.346d8a9e.chunk.js.map": "/react-portofolio/build/static/js/2.346d8a9e.chunk.js.map",
+    "index.html": "/react-portofolio/build/index.html",
+    "precache-manifest.c30f4e8733a38ad393af2eec59af79ec.js": "/react-portofolio/build/precache-manifest.c30f4e8733a38ad393af2eec59af79ec.js",
+    "service-worker.js": "/react-portofolio/build/service-worker.js",
+    "static/css/2.bd39f990.chunk.css.map": "/react-portofolio/build/static/css/2.bd39f990.chunk.css.map",
+    "static/css/main.7c883429.chunk.css.map": "/react-portofolio/build/static/css/main.7c883429.chunk.css.map",
+    "static/media/intro-logo.png": "/react-portofolio/build/static/media/intro-logo.b904dcdc.png"
   }
 }
