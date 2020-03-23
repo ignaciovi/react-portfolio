@@ -93,7 +93,7 @@ const portfolioData = {
 			"date" : 'January 2019- Currently',
 			"description": ["Lead developer in a sales website using React.js and Redux which I learned on-site and was able to develop complex functionalities in a short period of time. Worked using Agile (Scrum) methodology to deliver new features" 
 				, "Improved sales websites based on Java and Javascript technologies"
-				, "Learned the importance of understanding the business in order to deliver well oriented and defined functionalities"],
+				, "Learned the importance of understanding the business in order to deliver well oriented and defined functionalities", "Worked closely with SAP and UI5 Odata"],
 			"company": 'ScottishPower'
 			
 		},
