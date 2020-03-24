@@ -772,6 +772,8 @@
 	justify-content: center;
 
 	&__list {
+
+		display:flex;
 			
 		&:not(:last-child) {
 			margin-right: 2rem;
@@ -786,6 +788,7 @@
 		height: 4.5rem;
 		border-radius: 50%;
 		border: 1px solid #fff;
+		margin:5px;
 	}
 
 	&__icon {
