@@ -95,14 +95,15 @@ class Header extends Component {
 		      <ul className={ `site-nav site-sidebar  ${isOpenSidebar ? 'is-open' : ''}` } >
 		        <li className="site-nav__list">
 		          <Link 
-		            onClick={ this.onHandleClickLink }
+					onClick={ this.onHandleClickLink }
+					href="#project"
 		         	className="site-nav__link"
 				    activeClass="site-nav__link--active"
 				    to="project"
 				    href="#project"
 				    spy={true}
 				    smooth={true}
-				    offset={-20}
+				    offset={-50}
 				    duration= {500}		          
 		          > 
 		          Projects 
@@ -110,55 +111,38 @@ class Header extends Component {
 		        </li>
 		        <li className="site-nav__list">
 		          <Link 
-		          	onClick={ this.onHandleClickLink }
-		          	href="#skills" 
+					onClick={ this.onHandleClickLink }
+					href="#works"
 		         	className="site-nav__link"
 				    activeClass="site-nav__link--active"
-				    to="skills"
-				    href="#skills"
+				    to="works"
+				    href="#works"
 				    spy={true}
 				    smooth={true}
-				    offset={-30}
+				    offset={-50}
 				    duration= {500}			          
 		          	className="site-nav__link"
 		          > 
-		          	Skills  
+		          	Experience  
 		          </Link>
 		        </li>
 		        <li className="site-nav__list">
 		          <Link 
 		          	onClick={ this.onHandleClickLink }
-		          	href="#work" 
+		          	href="#education" 
 		         	className="site-nav__link"
 				    activeClass="site-nav__link--active"
-				    to="work"
-				    href="#work"
+				    to="education"
+				    href="#education"
 				    spy={true}
 				    smooth={true}
-				    offset={-30}
+				    offset={-50}
 				    duration= {500}			          
 		          	className="site-nav__link"
 		          > 
-		          	Works  
+		          	Education  
 		          </Link>
-		        </li>          
-		        <li className="site-nav__list">
-		          <Link 
-		          	onClick={ this.onHandleClickLink }
-		          	href="#contact" 
-		         	className="site-nav__link"
-				    activeClass="site-nav__link--active"
-				    to="contact"
-				    href="#contact"
-				    spy={true}
-				    smooth={true}
-				    offset={-30}
-				    duration= {500}			          
-		          	className="site-nav__link"
-		          > 
-		          	Contact  
-		          </Link>
-		        </li>                         
+		        </li>                                  
 		      </ul>      
 		    </div>
 		  </header>		  

@@ -23,7 +23,7 @@ const Education  = (props) => {
     </div>     
   ))
 	return(
-    <section className="site-section" id="work">
+    <section className="site-section" id="education">
       <div className="container">       
         <h1 className="site-heading"> Education  </h1>
         <div className="stepper">

@@ -23,7 +23,7 @@ const Timeline  = (props) => {
     </div>     
   ))
 	return(
-    <section className="site-section  site-section--with-background" id="work">
+    <section className="site-section  site-section--with-background" id="works">
       <div className="container">       
         <h1 className="site-heading text-white"> Professional Experience  </h1>
         <div className="stepper">
