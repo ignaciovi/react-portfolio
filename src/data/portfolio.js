@@ -3,11 +3,20 @@ const portfolioData = {
 	"logo": "images/app-logo.png",
 	"logoWhite": "images/app-logo-white.png",
 	"name": 'Ignacio Valdelvira',
-	"role": 'Data Science and Full-stack enthusiast',
+	"role": 'Data Engineering and Full-stack enthusiast',
 	"intro": "This is my personal site",
 	"projects": [
 		{
 			"id": 0,
+			"title": "Wikipedia Newsletter",
+			"imageUrl": "images/portfolio/WikipediaNewsletter.png",
+			"link": "",
+			"codeLink": "https://github.com/ignaciovi/Wikipedia-Newsletter",
+			"description": ["Personal project to learn how to create a pipeline that will run periodically in EC2 Amazon Web Services"],
+			"technology": ["Python", "ETL (Luigi)", "AWS (EC2, RDS, S3)"],
+		},	
+		{
+			"id": 1,
 			"title": "Songbinator",
 			"imageUrl": "images/portfolio/Songbinator.png",
 			"link": "http://songbinator.eu-gb.mybluemix.net/",
@@ -16,7 +25,7 @@ const portfolioData = {
 			"technology": ["HTML/CSS", "SASS(SCSS)/ CSS Modules/ Styled Component", "React", "Redux"],
 		},	
 		{
-			"id": 1,
+			"id": 2,
 			"title": "Modelling the behavior of Unmanned Underwater Vehicles based on previous survey mission data",
 			"imageUrl": "images/portfolio/UUVPrediction.png",
 			"link": "",
@@ -27,7 +36,7 @@ const portfolioData = {
 			"technology": ["Python", "Machine Learning"],
 		},
 		{
-			"id": 2,
+			"id": 3,
 			"title": "Bitcoin price prediction using Time Series Forecasting and Sentiment Analysis",
 			"imageUrl": "images/portfolio/BitcoinPrediction.png",
 			"link": "",
@@ -44,7 +53,7 @@ const portfolioData = {
 			"technology": ["Python", "NLTK", "ARIMA", "Prophet"],
 		},
 		{
-			"id": 3,
+			"id": 4,
 			"title": "Song Genre Prediction",
 			"imageUrl": "images/portfolio/SongGenrePrediction.png",
 			"link": "",
@@ -55,7 +64,7 @@ const portfolioData = {
 			"technology": ["Python", "Machine Learning"]				
 		},
 		{
-			"id": 4,			
+			"id": 5,			
 			"title": "Tweet Geolocation Prediction",
 			"imageUrl": "images/portfolio/TweetLocation.png",
 			"link": "",
